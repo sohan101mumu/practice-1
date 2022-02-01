@@ -18,6 +18,26 @@
 
         .section-1 {
             display: flex;
+            margin: 10px;
+        }
+
+        /* .section-2 {
+            width: 800px;
+        } */
+        #water {
+            position: relative;
+            top: -75px
+        }
+
+        #ring {
+            position: relative;
+            z-index: 1;
+        }
+
+        #boy {
+            position: relative;
+            top: 75px;
+            z-index: 2;
         }
     </style>
 </head>
@@ -76,6 +96,18 @@
                 <li>width:200px</li>
                 <li>padding:20px</li>
             </ol>
+        </div>
+    </section>
+    <section class="section-2">
+        <h1>I am learning position</h1>
+        <div id="boy">
+            <img src="boy.svg" alt="Here is a picture of boy">
+        </div>
+        <div id="ring">
+            <img src="ring.svg" alt="Here is a picture of ring">
+        </div>
+        <div id="water">
+            <img src="water.svg" alt="Here is a picture of water">
         </div>
     </section>
 </body>
